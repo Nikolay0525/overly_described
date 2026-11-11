@@ -1,0 +1,10 @@
+id = "overly_described"
+name = "Overly Described"
+version = "1.0.0"
+kyubu = "^1.1"
+sides = ["client"]
+authors = ["ToufouMaster (original), ported"]
+description = "Descriptive texts for decorative objects instead of \"There is nothing special\"."
+
+[native]
+client = "bin/overly_described.dll"
