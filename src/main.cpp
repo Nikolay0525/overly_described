@@ -6,7 +6,7 @@
 // At 0x4881AC the game does `push 0x701DB8` (the "nothing special" string) and then `mov [ebp-4], 0` (0x4881B1).
 // [ebp+8] is a pointer to the object's type id. The old mod patched in a stub that pushed its own text; here a
 // mid-function hook runs right after the push and overwrites the pushed pointer on the stack ([esp]) instead.
-#include "../../common.hpp"
+#include "../common.hpp"
 
 #include <map>
 
